@@ -11,9 +11,5 @@ const mongoDbconnexion = async() => {
             console.error("❌ Erreur lors de la connexion à MongoDB :", error.message);
         }
         };
-        
-        module.exports = mongoDBConnection;
-
-
 
 module.exports= mongoDbconnexion
